@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.lead {
+    color: #666;
+    font-size: 1.25rem;
+}
+
+.btn-dark {
+    padding: 10px 20px;
+}
+
+.service-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.service-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.work-item {
+    margin-bottom: 20px;
+    
+}
+
+.work-item img {
+    border-radius: 5px;
+    
+    margin: 0 auto 10px; /* Margen superior y lateral automáticos */
+    display: block; /* Hace que la imagen se comporte como un bloque */
+}
+
+.work-item h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Imágenes de los proyectos*/
+.work-item .image-container {
+    height: 200px; /* Ajuste esta altura según necesidades */
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.work-item p {
+    font-size: 14px;
+}
+
+
+.work-item a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: inherit; /* Mantiene el color del texto */
+}
