@@ -13,6 +13,7 @@ h1 {
 
 .lead {
     color: #666;
+    font-size: 1.25rem;
 }
 
 .btn-dark {
@@ -51,7 +52,7 @@ h1 {
 
 /* Imágenes de los proyectos*/
 .work-item .image-container {
-    height: 200px; /* Ajuste esta altura según sus necesidades */
+    height: 200px; /* Ajuste esta altura según necesidades */
     object-fit: cover;
     border-radius: 5px;
     margin-bottom: 10px;
